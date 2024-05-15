@@ -11,4 +11,4 @@ function isAcronym (words, s) {
     return s === words.map((str) => str[0]).join("")
   }
 
-  console.log(isAcronym(["apple", "banana"], "ab"))
+  console.log(isAcronym(["apple", "banana"], "ab")) // true
